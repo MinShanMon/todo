@@ -4,7 +4,7 @@ on:
   - push
 
 jobs:
-  release-and-deploy
+  release-and-deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Echo the branch name
